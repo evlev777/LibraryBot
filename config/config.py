@@ -1,0 +1,13 @@
+import os
+
+TOKEN = os.getenv("TOKEN")
+
+USER_NAME_MYSQL = os.getenv("USER_NAME_MYSQL")
+PASSWORD_MYSQL = os.getenv("PASSWORD_MYSQL")
+HOST_NAME_MYSQL = os.getenv("HOST_NAME_MYSQL")
+
+
+SERVER_NAME_MSSQL = os.getenv("SERVER_NAME_MSSQL")
+PORT_MSSQL = os.getenv("PORT_MSSQL")
+USER_NAME_MSSQL = os.getenv("USER_NAME_MSSQL")
+PASSWORD_MSSQL = os.getenv("PASSWORD_MSSQL")
